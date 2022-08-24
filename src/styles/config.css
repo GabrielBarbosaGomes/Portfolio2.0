@@ -3,10 +3,10 @@
     --font-size-h2: 1.5rem;
     --font-size-md: 1.25rem;
     --font-size-sm: 1rem;
-    --color-white: #EBEFF2;
-    --color-tertiary: #D2D4D9;
-    --color-secundary: #AFAFAF;
-    --color-primary: #1D2527;
+    --color-white: #fff;
+    --color-green-dark: #1B9AAA;
+    --color-black: #050505;
+    --color-green-neon: #03e9f4;
 }
 
 @media (min-width: 1024px){
@@ -18,6 +18,6 @@
 
 html{
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: var(--color-white);
 }

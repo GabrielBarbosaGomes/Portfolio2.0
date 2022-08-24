@@ -5,11 +5,11 @@ export const HeaderComponent=styled.header`
     position: fixed;
     left: 0%;
     z-index: 1;
-    background-color: red;
+    background-color: var(--color-white);
 
     a{
         text-decoration: none;
-        color: black;
+        color: var(--color-black);
     }
 `
 
@@ -40,8 +40,28 @@ export const ItemList= styled.li`
     text-align: -webkit-match-parent;
     a{
         &:hover{
-            color: #03e9f4;
+            color: var(--color-green-neon);
         }
     }
     
 `
+export const BackgroundHeader = styled.div`
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--color-white);
+    transition: 0.3s ease-in-out;
+    transform: translateY(-100%);
+    padding: 2px 0;
+    z-index: -1;
+    box-shadow: 0 -1px 4px rgb(0 0 0 / 15%);
+    
+    &.translate {
+        transform: none;
+    }
+    @media (max-width: 1023px){
+        height: 40px;
+    }
+    `
