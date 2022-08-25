@@ -38,6 +38,7 @@ export const MyImg= styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 80%;
 `
 
 export const ImgWrapper= styled.div`
@@ -50,5 +51,8 @@ export const ImgWrapper= styled.div`
 `
 
 export const WrapperOpening= styled.div`
-
+    h3,
+    p{
+        color: var(--color-gray);
+    }
 `

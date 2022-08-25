@@ -1,12 +1,26 @@
+import { Contact } from "../Contact";
+import { Footer } from "../Footer";
 import { Hero } from "../Hero";
+import { Knowledge } from "../knowledge";
 import { Menu } from "../Menu";
+import { Projects } from "../Projects/indext";
+import { SobreMim } from "../SobreMim";
 import { LayoutComponent } from "./styles";
 
 export function Layout(props: any) {
+    const toggle = () =>{
+        console.log("me clicou");
+    }
+
     return (
-        <LayoutComponent>
-            <Menu />
+        <LayoutComponent className=''>
+            <Menu toggle={toggle}/>
             <Hero />
+            <SobreMim />
+            <Knowledge />
+            <Projects />
+            <Contact />
+            <Footer />
         </LayoutComponent>
     )
 }

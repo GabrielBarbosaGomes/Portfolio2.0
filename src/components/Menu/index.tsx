@@ -5,7 +5,7 @@ import { useState } from "react";
 import { BsMoonFill } from "react-icons/bs";
 
 
-export function Menu(){
+export function Menu(props: any){
     const [active, setActive] = useState(false)
     const [anchorHeaderRef, anchorHeaderInView] = useInView({ threshold: 1 });
 
@@ -28,7 +28,7 @@ export function Menu(){
                             <ItemList><a href="#">Fale comigo</a></ItemList>
                         </List>
                     </WrapperList>
-                    <div>
+                    <div onClick={props.toggle}>
                         <BsMoonFill />
                     </div>
                 </MenuComponent>

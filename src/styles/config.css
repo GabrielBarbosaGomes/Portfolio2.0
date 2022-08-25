@@ -7,6 +7,12 @@
     --color-green-dark: #1B9AAA;
     --color-black: #050505;
     --color-green-neon: #03e9f4;
+    --color-gray: #676a79;
+}
+
+.test{
+    --color-white: #050505;
+    --color-black: #fff;
 }
 
 @media (min-width: 1024px){
