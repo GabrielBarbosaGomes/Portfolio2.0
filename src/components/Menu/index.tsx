@@ -1,8 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { MenuComponent, WrapperList, List, HeaderComponent, ItemList, BackgroundHeader } from "./styles"
+import { MenuComponent, WrapperList, List, HeaderComponent, ItemList, BackgroundHeader, ToggleMode } from "./styles"
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
 import { BsMoonFill } from "react-icons/bs";
+import { FiSun } from "react-icons/Fi";
 
 
 export function Menu(props: any){
@@ -22,15 +23,22 @@ export function Menu(props: any){
                     <WrapperList>
                         <List>
                             <ItemList><a href="#">Início</a></ItemList>
-                            <ItemList><a href="#">Sobre mim</a></ItemList>
-                            <ItemList><a href="#">Habilidades</a></ItemList>
-                            <ItemList><a href="#">Projetos</a></ItemList>
-                            <ItemList><a href="#">Fale comigo</a></ItemList>
+                            <ItemList><a href="#sobreMim">Sobre mim</a></ItemList>
+                            <ItemList><a href="#skill">Habilidades</a></ItemList>
+                            <ItemList><a href="#projects">Projetos</a></ItemList>
+                            <ItemList><a href="#contact">Fale comigo</a></ItemList>
                         </List>
                     </WrapperList>
-                    <div onClick={props.toggle}>
-                        <BsMoonFill />
-                    </div>
+                    {active? 
+                        <div onClick={props.toggle}>
+                            <ToggleMode href="#" onClick={toggleMode}><FiSun className="toggle" /></ToggleMode>
+                        </div>
+                        :
+                        <div onClick={props.toggle}>
+                            <ToggleMode href="#" onClick={toggleMode}><BsMoonFill className="toggle" /></ToggleMode>
+                        </div>
+                    }
+                    
                 </MenuComponent>
                 <BackgroundHeader className={anchorHeaderInView ? '' : 'translate'} />
             </HeaderComponent>

@@ -12,7 +12,7 @@ export function Knowledge(){
     }
 
     return(
-        <KnowComponents className="paddingContainer">
+        <KnowComponents className="paddingContainer" id="skill">
             <Title>
                 <h2>Conhecimentos</h2>
                 <span>
@@ -20,13 +20,13 @@ export function Knowledge(){
                 </span>
             </Title>
 
-            <WrapperContent>
+            <WrapperContent className={active? 'space' : ''}>
                 <BsBraces />
-                <Content>
+                <Content >
                     <h1>Dev Front-end</h1>
                     <span>Desde novembro de 2021 estudando e fazendo aplicações web</span>
                 </Content>
-                {active? <CgChevronUp onClick={toggleMode} />: < CgChevronDown onClick={toggleMode} />}
+                <CgChevronDown onClick={toggleMode} className={active? 'rotate click' : 'click'} />
                 {
                     active? 
                     <Skills>
@@ -93,11 +93,6 @@ export function Knowledge(){
                     : 
                     <WrapperAnimation>
                         <h3>HTML</h3>
-                        <h3>CSS</h3>
-                        <h3>SCSS</h3>
-                        <h3>JavaScript</h3>
-                        <h3>ReactJs</h3>
-                        <h3>Mysql</h3>
                     </WrapperAnimation>
                 }
             </WrapperContent>

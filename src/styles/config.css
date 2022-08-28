@@ -8,22 +8,35 @@
     --color-black: #050505;
     --color-green-neon: #03e9f4;
     --color-gray: #676a79;
+    --color-card-shadow: #00000026;
 }
 
-.test{
+.test {
     --color-white: #050505;
     --color-black: #fff;
+    --color-gray: #939393;
+    --color-card-shadow: #46454528;
+    
 }
 
-@media (min-width: 1024px){
+.space{
+    margin-bottom: 24rem;
+}
+
+@media (min-width: 1024px) {
     :root {
         --font-size-h1: 3.5rem;
     }
 }
 
 
-html{
+html {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     background-color: var(--color-white);
+    scroll-behavior: smooth;
+}
+
+body{
+    
 }

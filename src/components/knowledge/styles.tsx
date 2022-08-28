@@ -2,14 +2,17 @@ import styled from 'styled-components';
 
 export const KnowComponents= styled.section`
     padding: 4rem 0 4rem;
+    background-color: var(--color-white);
+    
+    h1,
+    h2{
+        color: var(--color-black);
+    }
 `
 
 export const Title= styled.div`
     text-align: center;
     margin-bottom: 3rem;
-    h2{
-        margin: 0;
-    }
     span{
         color: var(--color-gray);
     }
@@ -20,26 +23,34 @@ export const WrapperContent= styled.div`
     justify-content: space-around;
     gap: 1rem;
     grid-template-columns: max-content;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 
     svg{
-        font-size: 80px;
+        font-size: 3rem;
         color: var(--color-green-dark);
+        transition: 0.35s ease-in-out;
+    }
+
+    .click{
+        cursor: pointer;
+    }
+
+    .rotate{
+        transform: scaleY(-1);
+        
     }
 
     @media (min-width: 768px){
         width: 50vw;
         svg{
-            font-size: 30px;
+            font-size: 2rem;
         }
     }
 
     @media (min-width: 1366px){
         width: 30vw;
-        svg{
-            font-size: 49px;
-        }
     }
 `
 export const Content= styled.div`
@@ -57,9 +68,11 @@ export const Skills= styled.div`
     position: absolute;
     width: 70vw;
     background: var(--color-green-dark);
-    top: 130%;
+    top: 170%;
+    transform: scale(1.2);
     padding: 1rem;
     border-radius: 1.8rem;
+    
     @media (min-width: 768px){
         width: 45vw;
     }
@@ -113,18 +126,19 @@ export const WrapperAnimation=styled.div`
 
     h3{
         position: absolute;
+        left: 50%;
         color: var(--color-black);
         transform: translate(-50%, -50%);
         animation: morph-effect 10s infinite ease-in-out;
 
         &:nth-child(1){
-            animation-delay: -200s;
+            animation-delay: -5s;
         }
-        &:nth-child(2){
-            animation-delay: -100s;
+        /*&:nth-child(2){
+            animation-delay: -10s;
         }
         &:nth-child(3){
-            animation-delay: -60s;
+            animation-delay: -5s;
         }
         &:nth-child(4){
             animation-delay: -25s;
@@ -134,7 +148,7 @@ export const WrapperAnimation=styled.div`
         }
         &:nth-child(6){
             animation-delay: -5s;
-        }
+        } */
     }
 
     @keyframes morph-effect {

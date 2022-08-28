@@ -4,7 +4,7 @@ import { MdOutlineMailOutline, MdLocationPin } from "react-icons/Md";
 
 export function Contact(){
     return(
-        <ContactComponent className="paddingContainer">
+        <ContactComponent className="paddingContainer" id="contact">
             <Title>
                 <h2>Fale comigo</h2>
                 <span>Você pode entrar em contato comigo pelos seguintes canais</span>

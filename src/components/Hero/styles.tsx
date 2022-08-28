@@ -9,11 +9,19 @@ export const HeroComponent= styled.section`
     padding-top: 5.5rem;
     column-gap: 2rem;
     align-items: center;
+    background-color: var(--color-white);
+    
+    h1,
+    h2,
+    h3{
+        color: var(--color-black);
+    }
 
     @media (min-width: 768px){
         grid-template-columns: max-content 1fr 1fr;
         flex-wrap: initial;
         justify-content: space-around;
+        padding: 15rem 0 8rem;
     }
 `
 export const SocialComponent= styled.div`
@@ -54,5 +62,9 @@ export const WrapperOpening= styled.div`
     h3,
     p{
         color: var(--color-gray);
+    }
+
+    a{
+        text-decoration: none;
     }
 `

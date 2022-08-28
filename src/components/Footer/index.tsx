@@ -12,15 +12,15 @@ export function Footer(){
                 </Title>
 
                 <Links>
-                    <a href="#">Sobre mim</a>
-                    <a href="#">Habilidade</a>
-                    <a href="#">Projetos</a>
+                    <a href="#sobreMim">Sobre mim</a>
+                    <a href="#skill">Habilidade</a>
+                    <a href="#projects">Projetos</a>
                 </Links>
             </div>
             
             <Social>
-                <a href="#"><GrLinkedinOption /></a>
-                <a href="#"><FaGithub /></a>
+                <a href="https://www.linkedin.com/in/gabrielbarbosagomes/" target="_blank" rel="noopener noreferrer"><GrLinkedinOption className="links" /></a>
+                <a href="https://github.com/GabrielBarbosaGomes" target="_blank" rel="noopener noreferrer"><FaGithub className="links" /></a>
             </Social>
             
         </FooterComponent>

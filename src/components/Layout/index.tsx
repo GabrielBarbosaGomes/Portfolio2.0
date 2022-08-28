@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Contact } from "../Contact";
 import { Footer } from "../Footer";
 import { Hero } from "../Hero";
@@ -8,12 +9,14 @@ import { SobreMim } from "../SobreMim";
 import { LayoutComponent } from "./styles";
 
 export function Layout(props: any) {
+    const [noturn, setNoturn] = useState(false);
+    
     const toggle = () =>{
-        console.log("me clicou");
+        setNoturn(!noturn);
     }
 
     return (
-        <LayoutComponent className=''>
+        <LayoutComponent className={noturn? 'test' : ''}>
             <Menu toggle={toggle}/>
             <Hero />
             <SobreMim />
