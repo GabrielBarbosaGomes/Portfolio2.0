@@ -1,5 +1,5 @@
-import { BsBraces } from "react-icons/bs";
-import { CgChevronDown, CgChevronUp } from "react-icons/cg";
+import { GiBrain } from "react-icons/Gi";
+import { CgChevronDown } from "react-icons/cg";
 import { Content, KnowComponents, SkillBar, Skills, SkillTitle, SkillWrapper, Title, WrapperContent, WrapperAnimation } from "./styles";
 import { useState } from "react";
 
@@ -21,7 +21,7 @@ export function Knowledge(){
             </Title>
 
             <WrapperContent className={active? 'space' : ''}>
-                <BsBraces />
+                <GiBrain />
                 <Content >
                     <h1>Dev Front-end</h1>
                     <span>Desde novembro de 2021 estudando e fazendo aplicações web</span>

@@ -1,9 +1,9 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { MenuComponent, WrapperList, List, HeaderComponent, ItemList, BackgroundHeader, ToggleMode } from "./styles"
+import { MenuComponent, WrapperList, List, HeaderComponent, ItemList, BackgroundHeader, ToggleMode, Logo } from "./styles"
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
 import { BsMoonFill } from "react-icons/bs";
 import { FiSun } from "react-icons/Fi";
+import logo from "../../assets/imagens/logo.svg"
 
 
 export function Menu(props: any){
@@ -19,7 +19,7 @@ export function Menu(props: any){
             <span ref={anchorHeaderRef} className='scroll' ></span>
             <HeaderComponent>
                 <MenuComponent className="paddingContainer">
-                    <a href="#">Gabriel</a>
+                    <a href="#"><Logo src={logo}/></a>
                     <WrapperList>
                         <List>
                             <ItemList><a href="#">Início</a></ItemList>

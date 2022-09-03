@@ -1,5 +1,5 @@
 import { FooterComponent, Links, Social, Title } from "./styles";
-import { GrLinkedinOption } from "react-icons/Gr";
+import { ImLinkedin2 } from "react-icons/Im";
 import { FaGithub } from "react-icons/Fa";
 
 export function Footer(){
@@ -19,7 +19,7 @@ export function Footer(){
             </div>
             
             <Social>
-                <a href="https://www.linkedin.com/in/gabrielbarbosagomes/" target="_blank" rel="noopener noreferrer"><GrLinkedinOption className="links" /></a>
+                <a href="https://www.linkedin.com/in/gabrielbarbosagomes/" target="_blank" rel="noopener noreferrer"><ImLinkedin2 className="links" /></a>
                 <a href="https://github.com/GabrielBarbosaGomes" target="_blank" rel="noopener noreferrer"><FaGithub className="links" /></a>
             </Social>
             

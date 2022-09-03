@@ -25,12 +25,11 @@ export const ProjectWrappers= styled.div`
     margin: auto;
 
     @media (min-width: 768px){
-        width: 49vw;
+        
     }
 `
 export const ProjectItems= styled.div`
     padding: 1rem;
-    
     grid-template-columns: 1fr 1fr;
     display: flex;
     flex-direction: column;
@@ -57,7 +56,44 @@ export const ProjectItems= styled.div`
     }
 
     @media (min-width: 768px){
-        width: 30%;
+        width: 100%;
+        flex-direction: initial;
+        align-items: center;
+    }
+`
+export const ContentProject= styled.div`
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    @media (min-width: 768px){
+        padding-right: 20px;
+    }
+`
+
+export const ImgProject= styled.div`
+    max-width: 50vw;
+    margin: auto;
+    img{
+        width: 100%;
+        filter: drop-shadow(0 8px 8px var(--color-card-shadow));
+        border-radius: 3px;
+        padding-top: 1.5rem;
+    }
+
+    @media (min-width: 768px){
+        max-width: 20vw;
+        margin: 0;
+        img{
+            padding-top: 0;
+        }
+    }
+
+    @media (min-width: 1024px){
+        max-width: 15vw;
+    }
+
+    @media (min-width: 1366px){
+        max-width: 13rem;
     }
 `
 

@@ -43,6 +43,10 @@ export const MenuComponent= styled.nav`
         box-shadow: none;
     }
 `
+export const Logo= styled.img`
+    width: 100px;
+`
+
 export const WrapperList = styled.div`
     display: flex;
     padding: 2rem;

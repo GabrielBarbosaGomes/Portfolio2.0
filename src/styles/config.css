@@ -8,14 +8,14 @@
     --color-black: #050505;
     --color-green-neon: #03e9f4;
     --color-gray: #676a79;
-    --color-card-shadow: #00000026;
+    --color-card-shadow: #0000005d;
 }
 
 .test {
     --color-white: #050505;
     --color-black: #fff;
     --color-gray: #939393;
-    --color-card-shadow: #46454528;
+    --color-card-shadow: #46454552;
     
 }
 
