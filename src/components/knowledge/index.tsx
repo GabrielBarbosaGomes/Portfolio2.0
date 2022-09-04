@@ -91,9 +91,7 @@ export function Knowledge(){
                         </SkillWrapper>
                     </Skills>                   
                     : 
-                    <WrapperAnimation>
-                        <h3>HTML</h3>
-                    </WrapperAnimation>
+                    ""
                 }
             </WrapperContent>
         </KnowComponents>

@@ -15,7 +15,7 @@
     --color-white: #050505;
     --color-black: #fff;
     --color-gray: #939393;
-    --color-card-shadow: #46454552;
+    --color-card-shadow: #03e8f452;
     
 }
 
@@ -38,5 +38,5 @@ html {
 }
 
 body{
-    
+    background-color: var(--color-white);
 }

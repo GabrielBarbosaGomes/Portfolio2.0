@@ -52,13 +52,17 @@ export const ProjectItems= styled.div`
     }
 
     &:hover{
-        box-shadow: 0px 4px 8px var(--color-card-shadow);
+        box-shadow: 0px 0px 10px #03e9f485;
+        
+        .scale{
+            transform: scale(1.1);
+        }
     }
 
     @media (min-width: 768px){
-        width: 100%;
-        flex-direction: initial;
+        width: 39%;
         align-items: center;
+        flex-wrap: wrap;
     }
 `
 export const ContentProject= styled.div`
@@ -70,12 +74,23 @@ export const ContentProject= styled.div`
     }
 `
 
+export const TitleProjects=styled.h3`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    svg{
+        color: var(--color-green-dark);
+        gap: 1;
+    }
+`
+
 export const ImgProject= styled.div`
     max-width: 50vw;
     margin: auto;
+    transition: 0.5s ease-in-out;
     img{
         width: 100%;
-        filter: drop-shadow(0 8px 8px var(--color-card-shadow));
+        filter: drop-shadow(0 8px 9px #07b4bdb7);
         border-radius: 3px;
         padding-top: 1.5rem;
     }
@@ -93,7 +108,7 @@ export const ImgProject= styled.div`
     }
 
     @media (min-width: 1366px){
-        max-width: 13rem;
+        max-width: 12.5rem;
     }
 `
 
