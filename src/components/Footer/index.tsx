@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/Fa";
 
 export function Footer(){
     return(
-        <FooterComponent>
+        <FooterComponent className="paddingContainer">
             <div className="start">
                 <Title>
                     <h1>Gabriel Barbosa Gomes</h1>

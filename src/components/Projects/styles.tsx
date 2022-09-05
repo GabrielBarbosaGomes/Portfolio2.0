@@ -52,7 +52,7 @@ export const ProjectItems= styled.div`
     }
 
     &:hover{
-        box-shadow: 0px 0px 10px #03e9f485;
+        
         
         .scale{
             transform: scale(1.1);
@@ -78,9 +78,13 @@ export const TitleProjects=styled.h3`
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    div{
+        transition: 0.5s ease-in-out;
+    }
+    
     svg{
         color: var(--color-green-dark);
-        gap: 1;
     }
 `
 

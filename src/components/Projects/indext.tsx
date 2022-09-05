@@ -24,7 +24,7 @@ export function Projects(){
                         <div>
                             <TitleProjects>
                                 Projeto Qsaude 
-                                <div>
+                                <div className="scale">
                                     <DiHtml5 /> <IoLogoCss3 />
                                 </div>                               
                             </TitleProjects>
@@ -45,7 +45,7 @@ export function Projects(){
                         <div>
                             <TitleProjects>
                                 Projeto Tela de inscrição/aulas 
-                                <div>
+                                <div className="scale">
                                     <DiHtml5 /> <IoLogoCss3 /> <SiJavascript /> <SiReact /> <SiTailwindcss /> <SiGraphql />
                                 </div>                                
                             </TitleProjects>
@@ -66,7 +66,7 @@ export function Projects(){
                         <div>
                             <TitleProjects>
                                 Projeto portfólio 1.0 
-                                <div>
+                                <div className="scale">
                                     <DiHtml5 /> <IoLogoCss3 /> <SiJavascript />
                                 </div>                                
                             </TitleProjects>
@@ -87,7 +87,7 @@ export function Projects(){
                         <div>
                             <TitleProjects>
                                 Projeto Carros 
-                                <div>
+                                <div className="scale">
                                     <DiHtml5 /> <IoLogoCss3 /> <SiJavascript /> <SiReact /> <SiStyledcomponents /> <SiGraphql />
                                 </div>                                
                             </TitleProjects>

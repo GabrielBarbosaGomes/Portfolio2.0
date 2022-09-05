@@ -4,19 +4,15 @@ export  const FooterComponent= styled.footer`
     padding: 2rem 2rem 7rem;
     background: var(--color-green-dark);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 1rem;
 
     .start{
         display: flex;
         gap: 1rem;
 
-        @media (min-width: 768px){
-            gap: 4rem;
-        }
-
         @media (min-width: 1024px){
-            gap: 8rem;
+            gap: 2rem;
         }
     }
 
