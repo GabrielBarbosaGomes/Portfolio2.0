@@ -50,7 +50,7 @@ export function Projects(){
                                 </div>                                
                             </TitleProjects>
                             <p>
-                                is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen 
+                                Esse é um projeto da rocketseat, que eu achei interessante e quis realizar, eles disponibilizaram o figma por um período de tempo, e eu me desafiei, até o momento ele tem 2 telas, uma de inscrição e a outra de aulas, alimentada por uma API, utilizei nesse projeto para estilizar o tailwind, para consultar as informações da API estou utilizando graphQL, ainda estou transformando em responsivo
                             </p>
                         </div>
                         <a href="https://project-curso.vercel.app/" target="_blank" rel="noopener noreferrer">Ver mais <BiRightArrowAlt /></a>
@@ -71,7 +71,7 @@ export function Projects(){
                                 </div>                                
                             </TitleProjects>
                             <p>
-                                is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen 
+                                Esta foi a primeira versão de portfólio que eu criei, nele eu utilizei, apenas HTML, CSS e JavaScript, projeto com um ar muito amador, porém através dele aprendi muito sobre designer, combinações de cores, padronizações e muito mais... Projeto responsivo.
                             </p>
                         </div>
                         <a href="https://portifolio-gabriel-gabrielbarbosagomes.vercel.app/" target="_blank" rel="noopener noreferrer">Ver mais <BiRightArrowAlt /></a>
@@ -92,7 +92,7 @@ export function Projects(){
                                 </div>                                
                             </TitleProjects>
                             <p>
-                            Neste projeto criei uma tela de cadastro com opções de criar, editar e excluir usuário, e os dados são guardados no localStorage, utilizando Html, CSS e JS
+                                Projeto criado para um processo seletivo que participei, e nele utilizei, HTML, CSS, SASS, React, CSS feito com Styled Components, informações dos automóveis passados por uma API, e para a consulta da API utilizei o graphQL, projeto responsivo
                             </p>
                         </div>
                         <a href="https://cyber-genios-ps.vercel.app/" target="_blank" rel="noopener noreferrer">Ver mais <BiRightArrowAlt /></a>

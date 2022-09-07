@@ -71,6 +71,7 @@ export const ContentProject= styled.div`
     flex-direction: column;
     @media (min-width: 768px){
         padding-right: 20px;
+        margin-bottom: 1rem;
     }
 `
 

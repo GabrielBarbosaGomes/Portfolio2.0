@@ -52,7 +52,7 @@ export function Knowledge(){
 
                         <SkillWrapper>
                             <SkillTitle>
-                                <h3>SCSS</h3>
+                                <h3>SASS</h3>
                                 <span>avançado</span>
                             </SkillTitle>
                             <SkillBar>

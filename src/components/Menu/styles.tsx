@@ -5,7 +5,7 @@ export const HeaderComponent=styled.header`
     position: fixed;
     bottom: 0;
     left: 0%;
-    z-index: 1;
+    z-index: 1000;
     background-color: var(--color-white);
 
     a{
@@ -28,9 +28,10 @@ export const HeaderComponent=styled.header`
 export const MenuComponent= styled.nav`
     display: flex;
     justify-content: space-between;
-    align-items: center;
     box-shadow: 0 -1px 4px rgb(0 0 0 / 15%);
-
+    flex-direction: column;
+    align-items: stretch;
+    padding-bottom: 1rem;
     a{
         &:hover{
             color: var(--color-green-neon);
@@ -41,6 +42,10 @@ export const MenuComponent= styled.nav`
         justify-content: space-between;
         align-items: center;
         box-shadow: none;
+        height: auto;
+        flex-direction: initial;
+        align-items: center;
+        padding-bottom: 0;
     }
 `
 export const Logo= styled.img`
@@ -49,8 +54,20 @@ export const Logo= styled.img`
 
 export const WrapperList = styled.div`
     display: flex;
-    padding: 2rem;
-    margin-left: auto;
+
+    &.menuClose{
+        display: none;
+    }
+
+    &.menuOpen{
+        display: flex;
+    }
+
+    @media (min-width: 768px){
+        display: flex;
+        padding: 2rem;
+        margin-left: auto;
+    }
 `
 
 export const List= styled.ul`
@@ -59,16 +76,24 @@ export const List= styled.ul`
     justify-content: space-around;
     padding: 0;
     margin: 0;
-    column-gap: 2rem
+    column-gap: 2rem;
+    flex-direction: column;
+
+    @media (min-width: 768px){
+        flex-direction: initial;
+    }
 `
 export const ItemList= styled.li`
     text-align: -webkit-match-parent;
+
+    padding: 0.5rem 0;
     a{
+        padding: 0;
+
         &:hover{
             color: var(--color-green-neon);
         }
     }
-    
 `
 export const BackgroundHeader = styled.div`
     display: none;
@@ -103,5 +128,37 @@ export const ToggleMode= styled.span`
         &:hover{
             color: var(--color-green-neon);
         }
+    }
+`
+export const IconesMobile= styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-top: 1rem;
+
+    @media (min-width: 768px){
+        padding: 0;
+    }
+`
+
+export const MenuMobile= styled.div`
+    svg{
+        color: var(--color-black)
+    }
+
+    @media (min-width: 768px){
+        display: none;
+    }
+`
+export const BackDrop = styled.div`
+    &.active{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        z-index: 900;
     }
 `

@@ -1,12 +1,16 @@
 import styled from 'styled-components';
 
 export const ContactComponent= styled.section`
-    padding: 6rem 0 2rem;
+    padding: 0rem 0 2rem;
     background-color: var(--color-white);
     h1,
     h2,
     h3{
         color: var(--color-black);
+    }
+
+    @media (min-width: 768px){
+        padding: 6rem 0 2rem;
     }
 `
 

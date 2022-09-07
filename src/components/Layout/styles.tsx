@@ -50,4 +50,9 @@ export const LayoutComponent = styled.main`
         padding-right: calc((100% - 1174px) / 2);
     }
   }
+
+  .back{
+    background-color: var(--color-white);
+  }
 `
+
