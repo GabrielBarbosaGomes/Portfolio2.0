@@ -1,6 +1,6 @@
 import { GiBrain } from "react-icons/Gi";
 import { CgChevronDown } from "react-icons/cg";
-import { Content, KnowComponents, SkillBar, Skills, SkillTitle, SkillWrapper, Title, WrapperContent, WrapperAnimation } from "./styles";
+import { Content, KnowComponents, SkillBar, Skills, SkillTitle, SkillWrapper, Title, WrapperContent } from "./styles";
 import { useState } from "react";
 
 

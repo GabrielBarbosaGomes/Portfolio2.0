@@ -57,6 +57,10 @@ export const WrapperList = styled.div`
 
     &.menuClose{
         display: none;
+
+        @media (min-width: 768px){
+            display: flex;
+        }
     }
 
     &.menuOpen{

@@ -26,7 +26,7 @@ export function Menu(props: any){
             <span ref={anchorHeaderRef} className='scroll' ></span>
             <HeaderComponent>
                 <MenuComponent className="paddingContainer">
-                    <a href="#"><Logo src={logo}/></a>
+                    <a><Logo src={logo}/></a>
                     <WrapperList className= {menuOpen ? "menuOpen" : "menuClose"}>
                         <List>
                             <ItemList><a href="#">Início</a></ItemList>
@@ -39,7 +39,7 @@ export function Menu(props: any){
                     {active? 
                         <IconesMobile>
                             <div onClick={props.toggle}>
-                                <ToggleMode href="#" onClick={toggleMode}><FiSun className="toggle" /></ToggleMode>
+                                <ToggleMode onClick={toggleMode}><FiSun className="toggle" /></ToggleMode>
                             </div>
 
                             <MenuMobile>
@@ -55,7 +55,7 @@ export function Menu(props: any){
                         :
                         <IconesMobile>
                             <div onClick={props.toggle}>
-                                <ToggleMode href="#" onClick={toggleMode}><BsMoonFill className="toggle" /></ToggleMode>
+                                <ToggleMode onClick={toggleMode}><BsMoonFill className="toggle" /></ToggleMode>
                             </div>
                             
                             <MenuMobile>
