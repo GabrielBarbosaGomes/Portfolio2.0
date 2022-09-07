@@ -1,6 +1,7 @@
 import { ContactComponent, ContactItem, Title, WrapperContact } from "./styles"
-import { ImWhatsapp } from "react-icons/Im";
-import { MdOutlineMailOutline, MdLocationPin } from "react-icons/Md";
+import { ImWhatsapp } from "@react-icons/all-files/im/ImWhatsapp";
+import { HiOutlineMail } from "@react-icons/all-files/hi/HiOutlineMail";
+import { TiLocation } from "@react-icons/all-files/ti/TiLocation";
 
 export function Contact(){
     return(
@@ -20,7 +21,7 @@ export function Contact(){
                 </ContactItem>
 
                 <ContactItem>
-                    <MdOutlineMailOutline />
+                    <HiOutlineMail />
                     <div>
                         <h3>Email</h3>
                         <span>gabryel122crf@gmail.com</span>
@@ -28,7 +29,7 @@ export function Contact(){
                 </ContactItem>
 
                 <ContactItem>
-                    <MdLocationPin />
+                    <TiLocation />
                     <div>
                         <h3>Cidade</h3>
                         <span>Uberlândia - Minas Gerais</span>

@@ -1,10 +1,11 @@
 import { MenuComponent, WrapperList, List, HeaderComponent, ItemList, BackgroundHeader, ToggleMode, Logo, MenuMobile, IconesMobile, BackDrop } from "./styles"
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
-import { BsMoonFill } from "react-icons/bs";
-import { FiSun } from "react-icons/Fi";
+import { FaMoon } from "@react-icons/all-files/fa/FaMoon";
+import { FiSun } from "@react-icons/all-files/fi/FiSun";
 import logo from "../../assets/imagens/logo.svg"
-import { BsGrid, BsFillGridFill } from "react-icons/bs";
+import { BsGrid } from "@react-icons/all-files/bs/BsGrid";
+import { BsFillGridFill } from "@react-icons/all-files/bs/BsFillGridFill";
 
 
 
@@ -55,7 +56,7 @@ export function Menu(props: any){
                         :
                         <IconesMobile>
                             <div onClick={props.toggle}>
-                                <ToggleMode onClick={toggleMode}><BsMoonFill className="toggle" /></ToggleMode>
+                                <ToggleMode onClick={toggleMode}><FaMoon className="toggle" /></ToggleMode>
                             </div>
                             
                             <MenuMobile>

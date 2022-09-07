@@ -1,8 +1,9 @@
 import { Button } from "../Button";
 import { HeroComponent, ImgWrapper, MyImg, SocialComponent, WrapperOpening } from "./styles";
 import eu from "../../assets/imagens/eu.png"
-import {IoMdSend} from "react-icons/io"
-import {ImLinkedin2, ImGithub} from "react-icons/Im"
+import { IoMdSend } from "@react-icons/all-files/io/IoMdSend";
+import { ImLinkedin2 } from "@react-icons/all-files/im/ImLinkedin2";
+import { ImGithub } from "@react-icons/all-files/im/ImGithub";
 
 export function Hero(){
     return(

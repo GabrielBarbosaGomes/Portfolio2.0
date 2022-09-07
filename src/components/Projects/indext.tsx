@@ -1,14 +1,17 @@
 import { Button } from "../Button";
 import { ContentProject, ImgProject, ProjectItems, ProjectsComponents, ProjectWrappers, Title, TitleProjects, WrapperContent } from "./styles";
-import {ImGithub} from "react-icons/Im";
-import {BiRightArrowAlt} from "react-icons/Bi";
+import { ImGithub } from "@react-icons/all-files/im/ImGithub";
+import { BiRightArrowAlt } from "@react-icons/all-files/bi/BiRightArrowAlt";
 import Qsaude from "../../assets/imagens/projetoQsaude.png";
 import cursos from "../../assets/imagens/cursos.png";
 import portfolio from "../../assets/imagens/portifolio1.png";
 import cars from "../../assets/imagens/cars.png";
-import { DiHtml5 } from "react-icons/di";
-import { IoLogoCss3 } from "react-icons/io";
-import { SiReact, SiTailwindcss, SiGraphql, SiJavascript, SiStyledcomponents } from "react-icons/si";
+import { DiHtml5 } from "@react-icons/all-files/di/DiHtml5";
+import { IoLogoCss3 } from "@react-icons/all-files/io/IoLogoCss3";
+import { SiReact } from "@react-icons/all-files/si/SiReact";
+import { SiTailwindcss } from "@react-icons/all-files/si/SiTailwindcss";
+import { SiGraphql } from "@react-icons/all-files/si/SiGraphql";
+import { SiJavascript } from "@react-icons/all-files/si/SiJavascript";
 
 export function Projects(){
     return(
@@ -88,7 +91,7 @@ export function Projects(){
                             <TitleProjects>
                                 Projeto Carros 
                                 <div className="scale">
-                                    <DiHtml5 /> <IoLogoCss3 /> <SiJavascript /> <SiReact /> <SiStyledcomponents /> <SiGraphql />
+                                    <DiHtml5 /> <IoLogoCss3 /> <SiJavascript /> <SiReact /> <SiGraphql />
                                 </div>                                
                             </TitleProjects>
                             <p>

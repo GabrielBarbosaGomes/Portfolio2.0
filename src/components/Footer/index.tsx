@@ -1,6 +1,7 @@
 import { FooterComponent, Links, Social, Title } from "./styles";
-import { ImLinkedin2 } from "react-icons/Im";
-import { FaGithub } from "react-icons/Fa";
+import { ImLinkedin2 } from "@react-icons/all-files/im/ImLinkedin2";
+import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
+
 
 export function Footer(){
     return(
