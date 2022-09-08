@@ -139,11 +139,6 @@ export const IconesMobile= styled.div`
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    padding-top: 1rem;
-
-    @media (min-width: 768px){
-        padding: 0;
-    }
 `
 
 export const MenuMobile= styled.div`

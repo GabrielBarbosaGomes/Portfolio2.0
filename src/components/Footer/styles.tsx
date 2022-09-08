@@ -6,6 +6,7 @@ export  const FooterComponent= styled.footer`
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+    margin-bottom: 100px;
 
     .start{
         display: flex;
