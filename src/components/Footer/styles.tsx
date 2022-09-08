@@ -6,7 +6,7 @@ export  const FooterComponent= styled.footer`
     display: flex;
     justify-content: space-between;
     gap: 1rem;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 
     .start{
         display: flex;
@@ -19,6 +19,7 @@ export  const FooterComponent= styled.footer`
 
     @media (min-width: 768px) {
         padding: 2rem 2rem 2rem 2rem;
+        margin-bottom: 0;
     }
 `
 export const Title= styled.div`
