@@ -32,6 +32,26 @@ export function Knowledge(){
                     <Skills>
                         <SkillWrapper>
                             <SkillTitle>
+                                <h3>ReactJs</h3>
+                                <span>Intermediario</span>
+                            </SkillTitle>
+                            <SkillBar>
+                                <span className="intermediario"></span>
+                            </SkillBar>
+                        </SkillWrapper>
+
+                        <SkillWrapper>
+                            <SkillTitle>
+                                <h3>Angular</h3>
+                                <span>Intermediario</span>
+                            </SkillTitle>
+                            <SkillBar>
+                                <span className="intermediario"></span>
+                            </SkillBar>
+                        </SkillWrapper>
+
+                        <SkillWrapper>
+                            <SkillTitle>
                                 <h3>HTML</h3>
                                 <span>avançado</span>
                             </SkillTitle>
@@ -62,17 +82,7 @@ export function Knowledge(){
 
                         <SkillWrapper>
                             <SkillTitle>
-                                <h3>JavaScript</h3>
-                                <span>Intermediario</span>
-                            </SkillTitle>
-                            <SkillBar>
-                                <span className="intermediario"></span>
-                            </SkillBar>
-                        </SkillWrapper>
-
-                        <SkillWrapper>
-                            <SkillTitle>
-                                <h3>ReactJs</h3>
+                                <h3>JavaScript & TypeScript</h3>
                                 <span>Intermediario</span>
                             </SkillTitle>
                             <SkillBar>
