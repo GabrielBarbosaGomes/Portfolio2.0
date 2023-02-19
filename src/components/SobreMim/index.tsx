@@ -12,7 +12,7 @@ export function SobreMim(){
             <Content>
                 <img src={eu}/>
                 <p>
-                    Meu nome é Gabriel, tenho 24 anos, moro em Uberlândia-MG, sou desenvolvedor Front-end em busca de novos desafios, sempre tive interesse na programação, porém a vida é uma caixinha de surpresa, agora estou de volta e a todo vapor ingressando no mercado, estudando por conta e sendo mentorado por um dev sênior, Nas horas vagas eu pratico exercícios físicos como jogar bola, correr e ir à academia, ou jogar online com meus amigos, gosto de ambientes descontraídos e que as pessoas não tenham medo de serem quem elas são.
+                Sou desenvolvedor Front-end, moro em uberlândia-MG, tenho 24 anos, em busca de novos desafios, estou atuando no momento com angular e react, estou estudando redux, iniciando meus estudos de testes e analisando as liguagens para decidir com qual linguagem irei iniciar meus estudos no back-end, até o momento tem chamado minha atenção nodeJs, C# e java.
                 </p>
             </Content>
         </Im>
