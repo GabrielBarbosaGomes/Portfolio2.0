@@ -35,7 +35,7 @@ export function Layout(props: any) {
                 <SobreMim />
             </Parallax>
 
-            <Parallax speed={-1} className="back">
+            <Parallax speed={0} className="back">
                 <Knowledge />
             </Parallax>
 

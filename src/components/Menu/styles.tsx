@@ -49,7 +49,10 @@ export const MenuComponent= styled.nav`
     }
 `
 export const Logo= styled.img`
-    width: 100px;
+    width: 40px;
+    @media (min-width: 768px){
+        width: 100px;
+    }
 `
 
 export const WrapperList = styled.div`
@@ -89,6 +92,7 @@ export const List= styled.ul`
 `
 export const ItemList= styled.li`
     text-align: -webkit-match-parent;
+    width: -webkit-fill-available;
 
     padding: 0.5rem 0;
     a{
