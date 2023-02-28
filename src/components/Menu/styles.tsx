@@ -85,6 +85,7 @@ export const List= styled.ul`
     margin: 0;
     column-gap: 2rem;
     flex-direction: column;
+    width: max-content;
 
     @media (min-width: 768px){
         flex-direction: initial;
@@ -92,7 +93,6 @@ export const List= styled.ul`
 `
 export const ItemList= styled.li`
     text-align: -webkit-match-parent;
-    width: -webkit-fill-available;
 
     padding: 0.5rem 0;
     a{
