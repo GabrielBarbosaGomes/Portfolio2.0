@@ -3,20 +3,46 @@
     --font-size-h2: 1.5rem;
     --font-size-md: 1.25rem;
     --font-size-sm: 1rem;
-    --color-white: #fff;
-    --color-green-dark: #1B9AAA;
-    --color-black: #050505;
-    --color-green-neon: #03e9f4;
-    --color-gray: #676a79;
-    --color-card-shadow: #0000005d;
+    --color-white: rgb(255, 255, 255);
+    --color-green-dark: rgb(27, 154, 170);
+    --color-black: rgb(5, 5, 5);
+    --color-green-neon: rgb(3, 233, 244);
+    --color-green-neon-50-porcento: rgba(3, 233, 244, 0.498);
+    --color-green-neon-30-porcento: rgba(3, 233, 244, 0.298);
+    --color-green-neon-20-porcento: rgba(3, 233, 244, 0.2);
+    --color-gray: rgb(103, 106, 121);
+    --color-card-shadow: rgba(0, 0, 0, 0.365);
 }
 
-.test {
-    --color-white: #050505;
-    --color-black: #fff;
-    --color-gray: #939393;
-    --color-card-shadow: #03e8f452;
-    
+.dark {
+    --color-white: rgb(5, 5, 5);
+    --color-black: rgb(255, 255, 255);
+    --color-gray: rgb(147, 147, 147);
+   
+}
+
+.orange{
+    --color-green-dark: #FF8C00;
+    --color-green-neon: rgb(255, 192, 77)  ;
+    --color-green-neon-50-porcento: rgba(255, 192, 77, 0.5);
+    --color-green-neon-30-porcento: rgba(255, 192, 77, 0.3);
+    --color-green-neon-20-porcento: rgba(255, 192, 77, 0.2);
+}
+
+.pink{
+    --color-green-dark: rgb(255, 36, 102);
+    --color-green-neon:  rgb(247, 119, 168);
+    --color-green-neon-50-porcento: rgba(247, 119, 168, 0.5);
+    --color-green-neon-30-porcento: rgba(247, 119, 168, 0.3);
+    --color-green-neon-20-porcento: rgba(247, 119, 168, 0.2);
+}
+
+.blue{
+    --color-green-dark: #0686db;
+    --color-green-neon: rgb(67, 202, 243) ;
+    --color-green-neon-50-porcento: rgba(67, 202, 243, 0.5);
+    --color-green-neon-30-porcento: rgba(67, 202, 243, 0.3);
+    --color-green-neon-20-porcento: rgba(67, 202, 243, 0.2);
 }
 
 .space{

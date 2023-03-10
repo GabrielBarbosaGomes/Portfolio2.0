@@ -19,35 +19,36 @@ export function Layout(props: any) {
         body.style.background = noturn ? "#fff" : "#050505";
         // Google Chrome Fix.
         document.querySelectorAll('section').forEach(sec => {
+            console.log("sec", sec)
             sec.parentElement?.setAttribute("class", "back");
         })
     }
 
     return (
-        <LayoutComponent className={noturn ? 'test' : ''}>
+        <LayoutComponent className={noturn ? 'dark pink' : ''}>
             <Menu toggle={toggle} />
             
-            <Parallax speed={-18} className="back">
+            <Parallax speed={-18} >
                 <Hero />
             </Parallax>
 
-            <Parallax speed={10} className="back">
+            <Parallax speed={10} >
                 <SobreMim />
             </Parallax>
 
-            <Parallax speed={0} className="back">
+            <Parallax speed={0} >
                 <Knowledge />
             </Parallax>
 
-            <Parallax speed={20} className="back">
+            <Parallax speed={20} >
                 <Projects />
             </Parallax>
 
-            <Parallax speed={5} className="back">
+            <Parallax speed={5} >
                 <Contact />
             </Parallax>
 
-            <Parallax className="back">
+            <Parallax >
                 <Footer />
             </Parallax>
 

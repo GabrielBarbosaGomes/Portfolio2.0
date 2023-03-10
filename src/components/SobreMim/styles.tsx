@@ -46,9 +46,9 @@ export const Content= styled.div`
             transform: scale(1.05);
 
             box-shadow: 
-            rgba(3, 233, 244, 0.5) 6px 9px 2px,
-            rgba(3, 233, 244, 0.3) 11px 14px 2px,
-            rgba(3, 233, 244, 0.2) 16px 20px 2px;
+            var(--color-green-neon-50-porcento) 6px 9px 2px,
+            var(--color-green-neon-30-porcento) 11px 14px 2px,
+            var(--color-green-neon-20-porcento) 16px 20px 2px;
 
             transform: 
             rotate(1deg)
