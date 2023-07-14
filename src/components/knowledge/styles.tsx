@@ -17,7 +17,7 @@ export const Title= styled.div`
         color: var(--color-gray);
     }
 `
-export const WrapperContent= styled.div`
+export const WrapperContent= styled.button`
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -26,6 +26,14 @@ export const WrapperContent= styled.div`
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+    box-shadow: 0px 3px 3px 2px var(--color-green-neon);
+
+    &:hover{
+        background-color: var(--color-green-neon);
+    }
 
     svg{
         font-size: 3rem;

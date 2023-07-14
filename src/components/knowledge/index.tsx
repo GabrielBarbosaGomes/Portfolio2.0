@@ -52,6 +52,16 @@ export function Knowledge(){
 
                         <SkillWrapper>
                             <SkillTitle>
+                                <h3>Vue</h3>
+                                <span>Básico</span>
+                            </SkillTitle>
+                            <SkillBar>
+                                <span className="basico"></span>
+                            </SkillBar>
+                        </SkillWrapper>
+
+                        <SkillWrapper>
+                            <SkillTitle>
                                 <h3>HTML</h3>
                                 <span>avançado</span>
                             </SkillTitle>
@@ -82,11 +92,41 @@ export function Knowledge(){
 
                         <SkillWrapper>
                             <SkillTitle>
-                                <h3>JavaScript & TypeScript</h3>
+                                <h3>tailwindcss</h3>
+                                <span>avançado</span>
+                            </SkillTitle>
+                            <SkillBar>
+                                <span className="avancado"></span>
+                            </SkillBar>
+                        </SkillWrapper>
+
+                        <SkillWrapper>
+                            <SkillTitle>
+                                <h3>JavaScript</h3>
                                 <span>Intermediario</span>
                             </SkillTitle>
                             <SkillBar>
                                 <span className="intermediario"></span>
+                            </SkillBar>
+                        </SkillWrapper>
+
+                        <SkillWrapper>
+                            <SkillTitle>
+                                <h3>TypeScript</h3>
+                                <span>Intermediario</span>
+                            </SkillTitle>
+                            <SkillBar>
+                                <span className="intermediario"></span>
+                            </SkillBar>
+                        </SkillWrapper>
+
+                        <SkillWrapper>
+                            <SkillTitle>
+                                <h3>PHP</h3>
+                                <span>Básico</span>
+                            </SkillTitle>
+                            <SkillBar>
+                                <span className="basico"></span>
                             </SkillBar>
                         </SkillWrapper>
 
