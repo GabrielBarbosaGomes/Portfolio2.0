@@ -20,14 +20,15 @@ export function Knowledge(){
                 </span>
             </Title>
 
-            <WrapperContent className={active? 'space' : ''}>
+            <WrapperContent>
                 <GiBrain />
                 <Content >
                     <h1>Dev Front-end</h1>
                     <span>Desde novembro de 2021 estudando e fazendo aplicações web</span>
                 </Content>
                 <CgChevronDown onClick={toggleMode} className={active? 'rotate click' : 'click'} />
-                {
+            </WrapperContent>
+            {
                     active? 
                     <Skills>
                         <SkillWrapper>
@@ -143,7 +144,6 @@ export function Knowledge(){
                     : 
                     ""
                 }
-            </WrapperContent>
         </KnowComponents>
     )
 }

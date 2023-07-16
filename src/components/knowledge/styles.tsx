@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const KnowComponents= styled.section`
     padding: 4rem 0 4rem;
     background-color: var(--color-white);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    gap: 4rem;
     
     h1,
     h2{
@@ -29,11 +33,6 @@ export const WrapperContent= styled.button`
     border-radius: 10px;
     border: none;
     background: transparent;
-    box-shadow: 0px 3px 3px 2px var(--color-green-neon);
-
-    &:hover{
-        background-color: var(--color-green-neon);
-    }
 
     svg{
         font-size: 3rem;
@@ -73,13 +72,13 @@ export const Content= styled.div`
     }
 `
 export const Skills= styled.div`
-    position: absolute;
-    width: 70vw;
+   
     background: var(--color-green-dark);
-    top: 170%;
-    transform: scale(1.2);
     padding: 1rem;
     border-radius: 1.8rem;
+    margin: auto;
+    transform: scale(1.1);
+    box-shadow: 0px 2px 7px 3px var(--color-card-shadow);
     
     @media (min-width: 768px){
         width: 45vw;
