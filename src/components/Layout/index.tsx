@@ -27,29 +27,29 @@ export function Layout(props: any) {
         <LayoutComponent className={noturn ? 'test' : ''}>
             <Menu toggle={toggle} />
             
-            <Parallax speed={-18} className="back">
+           
                 <Hero />
-            </Parallax>
+           
 
-            <Parallax speed={10} className="back">
+           
                 <SobreMim />
-            </Parallax>
+           
 
-            <Parallax speed={0} className="back">
+            
                 <Knowledge />
-            </Parallax>
+            
 
-            <Parallax speed={20} className="back">
+            
                 <Projects />
-            </Parallax>
+            
 
-            <Parallax speed={5} className="back">
+         
                 <Contact />
-            </Parallax>
+            
 
-            <Parallax className="back">
+            
                 <Footer />
-            </Parallax>
+           
 
         </LayoutComponent>
     )

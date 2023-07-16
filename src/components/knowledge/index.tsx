@@ -20,14 +20,15 @@ export function Knowledge(){
                 </span>
             </Title>
 
-            <WrapperContent className={active? 'space' : ''}>
+            <WrapperContent>
                 <GiBrain />
                 <Content >
                     <h1>Dev Front-end</h1>
                     <span>Desde novembro de 2021 estudando e fazendo aplicações web</span>
                 </Content>
                 <CgChevronDown onClick={toggleMode} className={active? 'rotate click' : 'click'} />
-                {
+            </WrapperContent>
+            {
                     active? 
                     <Skills>
                         <SkillWrapper>
@@ -47,6 +48,16 @@ export function Knowledge(){
                             </SkillTitle>
                             <SkillBar>
                                 <span className="intermediario"></span>
+                            </SkillBar>
+                        </SkillWrapper>
+
+                        <SkillWrapper>
+                            <SkillTitle>
+                                <h3>Vue</h3>
+                                <span>Básico</span>
+                            </SkillTitle>
+                            <SkillBar>
+                                <span className="basico"></span>
                             </SkillBar>
                         </SkillWrapper>
 
@@ -82,11 +93,41 @@ export function Knowledge(){
 
                         <SkillWrapper>
                             <SkillTitle>
-                                <h3>JavaScript & TypeScript</h3>
+                                <h3>tailwindcss</h3>
+                                <span>avançado</span>
+                            </SkillTitle>
+                            <SkillBar>
+                                <span className="avancado"></span>
+                            </SkillBar>
+                        </SkillWrapper>
+
+                        <SkillWrapper>
+                            <SkillTitle>
+                                <h3>JavaScript</h3>
                                 <span>Intermediario</span>
                             </SkillTitle>
                             <SkillBar>
                                 <span className="intermediario"></span>
+                            </SkillBar>
+                        </SkillWrapper>
+
+                        <SkillWrapper>
+                            <SkillTitle>
+                                <h3>TypeScript</h3>
+                                <span>Intermediario</span>
+                            </SkillTitle>
+                            <SkillBar>
+                                <span className="intermediario"></span>
+                            </SkillBar>
+                        </SkillWrapper>
+
+                        <SkillWrapper>
+                            <SkillTitle>
+                                <h3>PHP</h3>
+                                <span>Básico</span>
+                            </SkillTitle>
+                            <SkillBar>
+                                <span className="basico"></span>
                             </SkillBar>
                         </SkillWrapper>
 
@@ -103,7 +144,6 @@ export function Knowledge(){
                     : 
                     ""
                 }
-            </WrapperContent>
         </KnowComponents>
     )
 }
