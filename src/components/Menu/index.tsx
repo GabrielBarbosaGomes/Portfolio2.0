@@ -31,7 +31,7 @@ export function Menu(props: any){
                     <WrapperList className= {menuOpen ? "menuOpen" : "menuClose"}>
                         <List>
                             <ItemList><a href="#">Início</a></ItemList>
-                            <ItemList><a href="#sobreMim">Sobre mim</a></ItemList>
+                            <ItemList><a href="#AboutMe">Sobre mim</a></ItemList>
                             <ItemList><a href="#skill">Habilidades</a></ItemList>
                             <ItemList><a href="#projects">Projetos</a></ItemList>
                             <ItemList><a href="#contact">Fale comigo</a></ItemList>

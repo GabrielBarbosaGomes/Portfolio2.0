@@ -6,7 +6,7 @@ import { Hero } from "../Hero";
 import { Knowledge } from "../knowledge";
 import { Menu } from "../Menu";
 import { Projects } from "../Projects/indext";
-import { SobreMim } from "../SobreMim";
+import { AboutMe } from "../AboutMe";
 import { LayoutComponent } from "./styles";
 
 
@@ -32,7 +32,7 @@ export function Layout(props: any) {
            
 
            
-                <SobreMim />
+                <AboutMe />
            
 
             

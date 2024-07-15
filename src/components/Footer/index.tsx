@@ -13,7 +13,7 @@ export function Footer(){
                 </Title>
 
                 <Links>
-                    <a href="#sobreMim">Sobre mim</a>
+                    <a href="#aboutMe">Sobre mim</a>
                     <a href="#skill">Habilidade</a>
                     <a href="#projects">Projetos</a>
                 </Links>

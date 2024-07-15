@@ -16,7 +16,7 @@ export function Contact(){
                     <ImWhatsapp />
                     <div>
                         <h3>Telefone / WhastApp</h3>
-                        <span>(34) 99647-7945</span>
+                        <span>(34) 98446-4565</span>
                     </div>
                 </ContactItem>
 
